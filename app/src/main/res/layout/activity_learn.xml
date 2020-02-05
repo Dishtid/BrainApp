@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_learn"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"
+android:layout_marginTop="00dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lbgcolors"
+        android:id="@+id/imageView3"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="406dp"
+        android:layout_marginLeft="400dp"
+        app:srcCompat="@drawable/redapple"
+        android:id="@+id/imgview" />
+
+    <GridLayout
+        android:layout_width="550dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="410dp">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/rewind"
+            android:scaleType="fitXY"
+            android:id="@+id/btn_rewind"
+            android:background="@drawable/roundbutton"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/prev"
+            android:id="@+id/btn_prev"
+            android:background="@drawable/roundbutton" />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="130dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/next"
+            android:id="@+id/btn_next"
+            android:background="@drawable/roundbutton" />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/forward"
+            android:id="@+id/btn_forward"
+            android:background="@drawable/roundbutton" />
+    </GridLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft = "0dp"
+        android:layout_marginTop = "0dp">
+
+        <TextView
+            android:text="RED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="82dp"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="22dp"
+            android:id="@+id/textView"
+            android:fontFamily="sans-serif"
+
+            android:textSize="@android:dimen/notification_large_icon_height"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="350dp"
+            app:srcCompat="@drawable/bee01"
+            android:id="@+id/imgbee"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="325dp"
+            android:layout_marginTop="100dp"/>
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/home"
+        android:id="@+id/btn_home"
+        android:background="@drawable/roundbutton" />
+
+    <!--  <ImageView
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginLeft="800dp"
+          app:srcCompat="@drawable/sunshinelogo"
+          android:id="@+id/logo"
+          android:scaleType="fitXY" /> !-->
+
+
+</FrameLayout>

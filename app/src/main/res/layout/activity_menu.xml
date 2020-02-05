@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginTop="00dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.pacecon.parag.brainapp.menu"
+    tools:background="@drawable/menubg"
+    android:background="@drawable/menubg">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fitsSystemWindows="true"
+        android:columnCount="4"
+        android:rowCount="2">
+        <RelativeLayout>
+            <ImageButton
+                android:id="@+id/btn_color"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="false"
+                android:foreground="@drawable/btnbg1"
+                android:elevation="24dp"
+                android:cropToPadding="false"
+                android:src="@drawable/btnbg1"
+                android:background="@drawable/roundbutton"/>
+            <TextView
+                android:text=""
+                android:textSize="30dp"
+                android:layout_gravity="center|bottom"
+                android:gravity="center|bottom"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="170dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+        </RelativeLayout>
+        <RelativeLayout>
+            <ImageButton
+                android:id="@+id/btn_run"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/btnbg2"
+                android:background="@drawable/roundbutton"/>
+            <TextView
+                android:text=""
+                android:textSize="30dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="170dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_run" />
+        </RelativeLayout>
+        <RelativeLayout>
+            <ImageButton
+                android:id="@+id/btn_reports"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/btnbg3"
+                android:background="@drawable/roundbutton"/>
+            <TextView
+                android:text=""
+                android:textSize="30dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="170dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_reports" />
+
+        </RelativeLayout>
+        <RelativeLayout>
+            <ImageButton
+                android:id="@+id/btn_numbers"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/btnbg4"
+                android:background="@drawable/roundbutton"/>
+            <TextView
+                android:text=""
+                android:textSize="30dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="170dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_val1" />
+
+        </RelativeLayout>
+        <RelativeLayout>
+            <ImageButton
+                android:id="@+id/btn_validation"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/btnbg5"
+                android:background="@drawable/roundbutton"/>
+            <TextView
+                android:text=""
+                android:textSize="30dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="170dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_val2" />
+
+        </RelativeLayout>
+        <RelativeLayout>
+            <ImageButton
+                android:id="@+id/btn_people"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/btnbg6"
+                android:background="@drawable/roundbutton" />
+            <TextView
+                android:text=""
+                android:textSize="30dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="170dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_val" />
+
+        </RelativeLayout>
+        <RelativeLayout>
+            <ImageButton
+                android:id="@+id/btn_compliance"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/btnbg7"
+                android:background="@drawable/roundbutton"/>
+            <TextView
+                android:text=" "
+                android:textSize="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="170dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_comp" />
+        </RelativeLayout>
+        <RelativeLayout>
+            <ImageButton
+                android:id="@+id/btn_sett"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/btnbg8"
+                android:background="@drawable/roundbutton"/>
+            <TextView
+                android:text=""
+                android:textSize="30dp"
+                android:layout_marginLeft="67dp"
+                android:layout_marginTop="170dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_sett" />
+        </RelativeLayout>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewtest" />
+    </GridLayout>
+</FrameLayout>

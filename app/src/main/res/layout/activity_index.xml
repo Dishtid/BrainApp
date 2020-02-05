@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_index"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"
+android:layout_marginTop="00dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:context="com.pacecon.parag.brainapp.index"
+>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/imageView"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        tools:background="@drawable/bg2" />
+
+    <GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="300dp"
+    android:layout_marginTop="250dp"
+    android:fitsSystemWindows="true"
+    android:columnCount="2"
+    android:rowCount="1">
+    <RelativeLayout>
+        <ImageButton
+            android:id="@+id/btn_learn"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            app:srcCompat="@mipmap/learn"
+            android:scaleType="fitXY"
+            android:src="@drawable/btnbg1"
+            android:background="@drawable/roundbutton"/>
+
+    </RelativeLayout>
+    <RelativeLayout>
+        <ImageButton
+            android:id="@+id/btn_puzzle"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            app:srcCompat="@mipmap/puzzle"
+            android:scaleType="fitXY"
+            android:src="@drawable/btnbg1"
+            android:background="@drawable/roundbutton" />
+
+        </RelativeLayout>
+</GridLayout>
+
+</FrameLayout>
